@@ -1,0 +1,35 @@
+
+.container{
+    display: flex;
+    flex-direction: column;
+   min-width: 300px;
+   max-width: 400px;
+   border: 1px solid blue;
+   
+}
+.card{
+    overflow: hidden;
+    aspect-ratio: 16/9;
+    
+
+}
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+}
+section{
+    overflow: hidden;
+    aspect-ratio: 16/9;
+}
+section h1,
+section p,
+section button{
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+}

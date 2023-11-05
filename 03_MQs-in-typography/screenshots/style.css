@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(238, 238, 238);
+}
+.page{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 45em;
+    margin: 4em auto;
+    gap: 2em;
+}
+p{
+    padding-bottom: 1.5em;
+}
+h2,h3{
+    padding-bottom: 1em;
+}
+.page > header{
+    border-bottom:  2px solid black;
+    flex: 1 1 100%;
+    padding-bottom: 2em;
+    margin-bottom: 1em;
+}
+.page > main{
+flex:  1 1 65%;
+}
+.page > aside{
+    flex:  1 1 25%;
+    }
+img{
+    background-color: rgb(255, 255, 255);
+}
+blockquote{
+    font-family: Georgia,serif;
+    border-left: 1px solid grey;
+}
+a{
+    color: rgb(0, 153, 0) ;
+}
+header h1{
+    font-family: Georgia,serif;
+}
+.align-right{
+    display: block;
+    float: right;
+    margin:  0 0 1em 1em;
+    border: 5px solid black;
+    padding: 0.5em;
+}
+.align-left{
+    display: block;
+    float: left;
+    margin: 0 1em 1em 0;
+    border: 5px solid black;
+    padding: 0.5em;
+}
+@media(min-width:500px){
+    body{
+        font-size: 14px;
+    }
+    .page{
+        flex-direction: column;
+    }
+    .align-right{
+        display: block;
+        margin:  0 0 1em 0;
+        border: 5px solid black;
+        padding: 0.5em;
+    }
+    .align-left{
+        display: block;
+        margin: 0 0 1em 0;
+        border: 5px solid black;
+        padding: 0.5em;
+    }
+}
+@media(min-width:600px){
+    body{
+        font-size: 16px;
+    }
+}
+@media(min-width:800px){
+    body{
+        font-size: 18px;
+    }
+}
+@media(min-width:1300px){
+    body{
+        font-size: 21px;
+    }
+}
+@media(min-width:1800px){
+    body{
+        font-size: 23px;
+    }
+}

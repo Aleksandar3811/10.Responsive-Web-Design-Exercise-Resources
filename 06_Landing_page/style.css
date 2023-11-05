@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: beige;
+    padding: 2em;
+}
+html{
+    font: 16px/1.5 Helvetica,sans-serif;
+}
+.page{
+    padding: 0.2em;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+.page>header{
+   display: flex;
+   flex-direction: row;
+   gap: 1em;
+   flex: 1 1 40%;
+   padding-bottom: 2em;
+  
+}
+.page>header>ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: 1 1 50%;
+    gap: 1em;
+    justify-content: flex-end;
+    
+   
+    }
+    .page>header ul>li{
+        display: flex;
+        
+       
+    }
+    .page>header>ul>li>a{
+        display: block;
+        text-decoration: none;
+        color: black;
+    }
+    .page>aside{
+       background-color: blueviolet;
+        display: flex;
+        gap: 1em;
+       align-items: center;
+       margin: 2em auto;
+    
+    }
+    aside>.text{
+        flex: 1 1 50%;
+        text-align: center;
+    }
+    aside>i{
+        flex: 1 1 40%;
+       font-size: 130px;
+    }
+    .main{
+      
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .main>h3{
+        padding: 2em;
+        flex: 1 1 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .main>div{
+        flex: 1 1 30%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+       
+    }
+    .second-header{
+     margin: 1em auto;
+        border: 2px solid green;
+        background-color: blueviolet;
+     text-align: center;
+    }
+    footer{
+        border-top: 2px solid blue;
+        display: flex;
+        flex-direction: row;
+        gap: 2em;
+        align-items: center;
+        text-align: center;
+        margin: 2em auto;
+    }
+    footer>aside ul{
+        list-style: none;
+
+    }
+    footer>aside ul li a{
+        display: block;
+        text-decoration: none;
+        color: black;
+    }
+    footer .final>ul{
+     list-style: none;
+    }

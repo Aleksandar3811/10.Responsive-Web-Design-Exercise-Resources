@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 2em;
+}
+.table{
+    display: flex;
+    flex-direction:column;
+    border: 1px solid black;
+}
+.row1,.row2,.row3{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+}
+.row1{
+    background-color: grey;
+}
+.col1,.col2,.col3{
+   border: 1px solid black;
+    flex: 1 1 30%;
+    padding: 1em;
+}
+@media (max-width:500px) {
+    .row1,.row2,.row3{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid black;
+    }
+}
